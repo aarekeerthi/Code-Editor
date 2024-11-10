@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+.pane {
+    display: flex;
+}
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: hsl(255, 6%, 25%);
+}
+.editor-title {
+    color: white;
+    padding: 0.5rem 1rem; 
+}
+.code-mirror-wrapper {
+    width: 25vw;
+}
+.iframe{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
